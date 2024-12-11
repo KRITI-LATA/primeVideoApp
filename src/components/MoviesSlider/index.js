@@ -7,18 +7,18 @@ import 'slick-carousel/slick/slick-theme.css'
 import MovieItem from '../MovieItem'
 
 const MoviesSlider = props => {
-  const {moviesList} = props
+  const {movieList} = props
 
   const settings = {
     dots: true,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 4,
   }
 
   return (
     <>
       <Slider {...settings}>
-        {moviesList.map(eachMovie => (
+        {movieList.map(eachMovie => (
           <MovieItem key={eachMovie.id} moviesDetails={eachMovie} />
         ))}
       </Slider>

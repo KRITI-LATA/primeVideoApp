@@ -31,6 +31,7 @@ const MovieItem = props => {
             >
               <IoMdClose size={20} color="#231f20" />
             </button>
+
             <div className="movie-player-container">
               <ReactPlayer url={videoUrl} controls />
             </div>

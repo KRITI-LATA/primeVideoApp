@@ -1,1 +1,23 @@
 /* Write your CSS here */
+.video-app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+.prime-video-heading-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.prime-video-image {
+  width: 100%;
+}
+.movies-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
